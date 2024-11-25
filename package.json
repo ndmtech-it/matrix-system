@@ -1,0 +1,36 @@
+{
+	"name": "Matrix - System module",
+	"version": "0.1",
+	"description": "Matrix module for operating system management",
+	"keywords": [
+		"matrix"
+	],
+	"homepage": "https://ndmtech.it/products/matrix",
+	"bugs": {
+		"url": "https://ndmtech.it/products/matrix/issues",
+		"email": "issues@ndmtech.it"
+	},
+	"author": {
+		"name": "NDM Tech",
+		"email": "info@ndmtech.it",
+		"url": "https://ndmtech.it"
+	},
+	"funding": [
+		{
+			"type": "individual",
+			"url": "https://ndmtech.it/donate"
+		},
+		"http://paypal.me/NDMTech",
+		{
+			"type": "patreon",
+			"url": "https://www.patreon.com/NDMTech"
+		}
+	],
+	"license": "UNLICENSED",
+	"type": "module",
+	"dependencies": {
+		"node-ipc": "^12.0.0",
+    "systeminformation": "^5.23.5"
+	},
+	"main": "matrix-system"
+}
